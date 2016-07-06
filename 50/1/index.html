@@ -13,7 +13,11 @@
 				10px 2px 5px 0px blue,
 				-13px 2px 5px 0px pink;
 		transition: width 2s, height 2s, transform 2s;
+		-moz-transition: width 2s;	/* Firefox 4 */
+       -webkit-transition: width 2s;	/* Safari 和 Chrome */
+        -o-transition: width 2s;	/* Opera */
 		}
+		#dv:hover{width: 100px}
 	</style>
 </head>
 <body>
