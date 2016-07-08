@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{width: 100px;
+			height: 100px;
+			background: blue;
+			padding-left: 20px;
+			-moz-box-sizing:border-box;
+		}
+		.clearfix{
+			content: " ";
+			display: table;
+			clear: both;
+		}
+
+		.box1{width: 60px;
+			height: 40px;
+			background: red;}
+	</style>
+</head>
+<body>
+	<div class="box clearfix">
+		<div class="box1"></div>
+	</div>
+</body>
+</html>
